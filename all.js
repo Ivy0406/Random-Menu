@@ -1,14 +1,13 @@
-// 宣告類型對照表 (因為API是英文，使用者介面是中文)
+// 宣告類型對照表 (因為API是英文，使用者介面是中英文)
 const foodType = {
-    "牛肉" : "Beef",
-    "雞肉" : "Chicken",
-    "羊肉" : "Lamb",
-    "豬肉" : "Pork",
-    "海鮮" : "Seafood",
-    "義大利麵" : "Pasta",
-    "素食" : "Vegetarian",
+    "Beef牛肉" : "Beef",
+    "Chicken雞肉" : "Chicken",
+    "Lamb羊肉" : "Lamb",
+    "Pork豬肉" : "Pork",
+    "Seafood海鮮" : "Seafood",
+    "Pasta義大利麵" : "Pasta",
+    "Vegetarian素食" : "Vegetarian",
 };
-
 
 // 宣告 DOM 元素
 const select = document.querySelector("select");
