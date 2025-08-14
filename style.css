@@ -119,6 +119,21 @@ body {
   cursor: pointer;
 }
 
+@media(max-width:768px){
+    .filter{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .btn{
+        width: 50%;
+        margin-top: 5%;
+    }    
+}
+
+
+
 .result {
     position: relative;
     background-image: url("筆記紙.jpg");
@@ -173,5 +188,6 @@ body {
     line-height: 1;
     z-index: 2;
 }
+
 
 
